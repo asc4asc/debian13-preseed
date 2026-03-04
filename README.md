@@ -7,16 +7,16 @@ install. This was based on my previous
 Usage:
 
 1. Download a [debian "netinst"](https://www.debian.org/CD/netinst/) image.
-   (Tested with 13.2)
+   (Tested with 13.3)
 2. Adapt the preseed.cfg file to your needs. (This one installs just SSH and
    sudo)
 3. Run:
 
 ```
-./make-preseed-iso.sh debian-13.2.0-amd64-netinst.iso
+./make-preseed-iso.sh debian-13.3.0-amd64-netinst.iso
 ```
 
-This will create a new ISO image named `preseed-debian-13.2.0-amd64-netinst.iso`
+This will create a new ISO image named `preseed-debian-13.3.0-amd64-netinst.iso`
 which installs Debian on the first available disk without intervention, not even
 a boot menu prompt.
 
